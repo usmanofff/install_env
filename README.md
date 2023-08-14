@@ -69,4 +69,5 @@ DIPLOM SPRINT-1
 ```
 terraform apply -auto-approve
 ```
-далее запускаем команду установки развертываение kubespray cd /opt/kubernetes_setup/ && sudo ./cluster_install.sh
+далее запускаем команду установки развертываение kubespray
+```cd /opt/kubernetes_setup/ && sudo ./cluster_install.sh```
