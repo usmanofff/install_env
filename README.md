@@ -54,14 +54,16 @@ DIPLOM SPRINT-1
   - JQ
 
 Также необходимо установить зависимости KUBESPRAY kubespray/requirements.txt
+
 Настраиваем разрешения и копируем данные по папкам.
+
 Клонируем на сервер репозитории для развертывание kubespray из двух нод master и worker. 
 ``` git@github.com:usmanofff/kubespray_setup.git ``` 
-Так же необходимо выбрать версию, форкнуть kubespray и склонировать на сервер 
+Так же необходимо форкнуть kubespray и склонировать на сервер 
 ``` git@github.com:usmanofff/kubespray.git ```
 
 Весь процесс проиходит в автоматическом режиме.
 Разворачиваем конфигурацию с помомощью команды: 
 ```
-terraform apply
+terraform apply -auto-approve
 ```
