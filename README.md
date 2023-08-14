@@ -27,5 +27,33 @@ DIPLOM SPRINT-1
 3
 Автоматизируем установку.
 ```
+1.  Выбрираем провайдера Yandex для будующей инфраструктуры,  описываем необходимую конфигурацию в terraform. Создаем необходимое окружение.
 
+Создаем Конфигурацию terraform : 
+  - сервисный аккаунт для управление инфраструктурой terraform с сервера
+  - сервер Ubuntu 22.04 LTS
+Передаем на сервер: 
+  - приватные данные yandex_token, yc_cloud_id, yc_folder_id
+  - ключи авторизации SSH
+  - terraform
+  - .terraformrc для подключения к yandex облаку
+  -  config ssh
+  -  script для установки по
+    
+Устанавливаем ПО на сервер:  
+  - TERRAFORM
+  - GIT
+  - DOCKER
+  - DOCKER COMPOSE
+  - PIP
+  - ANSIBLE
+  - KUBECTL
+  - GITLUB-RUNNER
+  - HELM
+  - JQ
+Также необходимо установить зависимости KUBESPRAY kubespray/requirements.txt
 
+Разворачиваем конфигурацию с помомощью команды: 
+```
+terraform apply
+```
