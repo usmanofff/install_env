@@ -1,0 +1,8 @@
+keys
+modules/instance/private.variables.tf
+.terraform*
+terraform.tfstate
+terraform.tfstate.backup
+soft
+
+

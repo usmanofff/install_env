@@ -1,0 +1,7 @@
+host *
+
+StrictHostKeyChecking no
+UserKnownHostsFile=/dev/null
+
+host *github.com
+IdentityFile ~/.ssh/id_rsa
