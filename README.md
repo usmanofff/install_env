@@ -52,10 +52,13 @@ DIPLOM SPRINT-1
   - GITLUB-RUNNER
   - HELM
   - JQ
+
 Также необходимо установить зависимости KUBESPRAY kubespray/requirements.txt
 Настраиваем разрешения и копируем данные по папкам.
-Клонируем на сервер репозитории ``` git@github.com:usmanofff/kubespray_setup.git ``` для развертывание kubespray из двух нод master и worker.
-Так же необходимо выбрать версию, форкнуть kubespray и склонировать на сервер ``` git@github.com:usmanofff/kubespray.git ```
+Клонируем на сервер репозитории для развертывание kubespray из двух нод master и worker. 
+``` git@github.com:usmanofff/kubespray_setup.git ``` 
+Так же необходимо выбрать версию, форкнуть kubespray и склонировать на сервер 
+``` git@github.com:usmanofff/kubespray.git ```
 
 Весь процесс проиходит в автоматическом режиме.
 Разворачиваем конфигурацию с помомощью команды: 
