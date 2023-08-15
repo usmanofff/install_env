@@ -76,3 +76,8 @@ terraform apply -auto-approve
 ```cd /opt/kubernetes_setup/ && sudo ./cluster_install.sh```
 
 далее настройка происходит с сервера. 
+
+
+![wm_yandex](https://github.com/usmanofff/install_env/assets/74288450/80dca3e7-bd97-42ee-a0c1-223beb2dbf7c)
+
+
