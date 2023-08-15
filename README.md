@@ -74,3 +74,5 @@ terraform apply -auto-approve
 ```
 далее запускаем команду установки развертываение kubespray
 ```cd /opt/kubernetes_setup/ && sudo ./cluster_install.sh```
+
+далее настройка происходит с сервера. 
