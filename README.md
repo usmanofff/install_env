@@ -29,7 +29,7 @@
 ```
 <h2>Выбрираем провайдера для будующей инфраструктуры, описываем необходимую конфигурацию в terraform. Подготавливаем необходимое окружение.</h2>
 
-В качествет провайдера был выбран Yandex. Начала работы с yandex и terraform можно найти по ссылке  ```https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart ```
+В качествет провайдера был выбран Yandex. Начала работы с yandex и terraform можно найти по ссылке   ``` https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart ```
 
 Создаем Конфигурацию terraform : 
   - сервисный аккаунт для управление инфраструктурой terraform
